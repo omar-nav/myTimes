@@ -2,7 +2,14 @@ a {
   color: black;
 }
 body {
+  color: black
+  display: flex;
+  font-family: Georgia;
+  font-size: 17px;
   margin: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: normal;
+  flex-direction: column;
 }
 .cat-ceo.image-content{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
@@ -27,8 +34,14 @@ body {
 .column.small{
   width: 240px;
 }
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
 div {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   display: block;
 }
 
@@ -38,12 +51,23 @@ div {
 
 h2 {
   display: block;
+  -webkit-margin-before: .83em;
+  -webkit-margin-after: .83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
   margin-top: 0;
   margin-bottom: 0;
   font-family: Georgia;
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
+}
+h3{
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 header {
   display: flex;
@@ -62,6 +86,9 @@ header nav {
   padding-right: 40px;
 }
 .image-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -94,13 +121,31 @@ header nav {
 .logo span {
   color: MediumAquamarine;
 }
+.narrative {
+  margin-top: 16px;
+}
+
 nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+.news-bites .bite {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-famliy: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+.news-bites h3{
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
 p {
   display: block;
-  padding: 1em;
   -webkit-margin-start: 1em;
   -webkit-margin-end: 1em;
   -webkit-margin-end: 0px;
@@ -108,4 +153,18 @@ p {
 }
 .pop-culture.image-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+/*places stories next to each other */
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.stories .text-content{
+  height: 250px;
 }
