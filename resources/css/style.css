@@ -1,0 +1,111 @@
+a {
+  color: black;
+}
+body {
+  margin: 0;
+}
+.cat-ceo.image-content{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column.large{
+  width: 630px;
+}
+.column.medium{
+  width: 300px;
+}
+.column.small{
+  width: 240px;
+}
+div {
+  border: 1px solid black;
+  display: block;
+}
+
+.fall-cancelled.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+h2 {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index:1;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+header nav {
+  padding-right: 40px;
+}
+.image-content{
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.lead-story .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+.lead-story .image-content span{
+  margin-left: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left:30px;
+}
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+.logo span {
+  color: MediumAquamarine;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+p {
+  display: block;
+  padding: 1em;
+  -webkit-margin-start: 1em;
+  -webkit-margin-end: 1em;
+  -webkit-margin-end: 0px;
+  -webkit-margin-end: 0px;
+}
+.pop-culture.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
